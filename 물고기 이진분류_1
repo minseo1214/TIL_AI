@@ -10,3 +10,4 @@ plt.scatter(bream_length,bream_weight)
 plt.ylabel('length')
 plt.xlabel('weight')
 plt.show()
+//2장에서 계속
