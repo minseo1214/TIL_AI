@@ -1,0 +1,16 @@
+    import matplotlib.pyplot as plt// 표를 그리는 함수 맷플롯립
+plt.scatter(x,y)//x,y 값을 입력합니다
+plt.xlabel('')//x명칭 작성
+plt.ylabel('')//y명칭 작성
+
+
+from sklearn.neighbors improt KNeighborsClassical //K-최근접 이웃 함수
+kn.score(data,target)//정확도 측정
+kn.flt(data,target)//훈련
+kn.predict()//새로운 데이터의 정답 예측
+
+import numpy as np
+np.array()//리스트를 넘파이의 배열로 바꿔줌
+np.random.seed()//numpy의 random seed를 설정하면 그에 맞는 값이 나옴
+index=np.arange()//10부터 n-1까지 차례로 증가하는 배열 생성
+np.random.shuffle(index)//index의 값을 랜덤적으로 섞어줌
