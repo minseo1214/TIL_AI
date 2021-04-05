@@ -4,7 +4,7 @@ plt.xlabel('')//x명칭 작성
 plt.ylabel('')//y명칭 작성
 
 
-from sklearn.neighbors improt KNeighborsClassical //K-최근접 이웃 함수
+from sklearn.neighbors import KNeighborsClassical //K-최근접 이웃 함수
 kn.score(data,target)//정확도 측정
 kn.flt(data,target)//훈련
 kn.predict()//새로운 데이터의 정답 예측
