@@ -1,0 +1,57 @@
+supersisor-감독관,지도교수
+labeling-이미 주어진 입력에 대해 어떤 결과가 나올지 알고 있는.
+
+지도학습 : labelling이 된, 출력과의 관계를 이용해 데이터들을 해석할 수 있는 모델을 
+만들고, 그것을 바탕으로 새로운 데이터를 predict하는 것을 말한다.
+known_data(입력) + known_reponse(출력) = function(모델)
+
+좋을 학습결과를 얻으려면  training data의 양이 많아야하며, 훈련 데이터가 generalization(범용성)을
+갖고 있어야한다.
+
+
+Supervised Learning 단계
+1.학습에 사용 할 훈련 데이터를 정함.
+(training data는 model의 성패 여부를 결정하기 때문에 잘 선정 해야한다.)
+
+2.훈련데이터를 모은다.
+
+3.입력의 feature(특징)을 어떻게 표현 할 것인지 결정한다.
+(일반적으로 벡터의 형태로 표현한다. 차원의 저주. curse of dimensionality에 빠지지 않도록 특지의
+수를 너무 크게 해서는 안된다.)
+
+4.학습 알고리즘을 결정한다.
+(지도 학습 방법을 사용할 알고리즘이 매우 많고 그 특성도 다양하기 때문에 적용 할 분야에 맞춰 적절한 알고리즘을 선택해야한다.)
+
+5.훈련 데이터를 이용해 학습 알고리즘을 실행한다.
+
+Supervised Learning 알고리즘
+-Artificial neural network
+-Boosting
+-Bayesian statistics
+-Decision tree
+-Gaussian process regression
+-Nearest neighbor algorithm
+-Random forests
+-Symbolic machine learning
+-Ensembles of classifiers
+-----------------------------------------------------------------------------------------
+차원의 저주(Curse of dimensionality)
+-> 수학적 공간 차원(변수 개수)이 늘어나면서, 문제 계산법이 지수적으로 커지는 상황
+차원이 높아질 수록 데이터 사이의 걸이가 멀어지고, 빈 공간이 증하가는 공간의 성김현상(Sparsity)을 보
+KNN(K-Nearest Neighbors)분류 알고리즘에서 흔하게 발생하는 문제.
+1차원에 10개의 데이터가 존재(10^1=10)
+2차원에 100개의 데이터가 존재(10^2=100)
+3차원에 1000개의 데이터가 존재(10^3=1000)
+
+'8'의 우치를 설명하느 상황에서, 차원이 커질 수록 설명 공간이 지수적으로 늘어남.
+Feature가 많아질 수록, 도일한 데이터를 설명하는 빈 공간이 증가함
+차원의 저주로로 인해, 알고리즘 모델링 과정에서 저장 공간과 처리 시간이 불필요하게 증가됨.
+
+차원의 저주 피하기
+차원을 줄이는 알고리즘 사용.
+1)PCA(Principal Component Analysis)
+2)LDA(Linear Disscriminant Analysis)
+3)LLE(Locally Linear Embedding)
+4)MDS(Multidmensional Scaling)
+5)lsomap
+6)t-SNE
