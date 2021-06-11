@@ -1,0 +1,27 @@
+supervised Learning(지도학습)
+training을 통해 error function 혹은 loss function을 구할 수 있으며.
+이 값을 피드백(훈련결과의 양호함을 판단)으로 확용하여 모델을 개선 시킬 수 있으나
+unsupervised Learning(비지도학습)은 이렇게 이용할 수 없다.
+reinforcement learning의 경우는 supervised learning처럼 사전에 기대하는 결과가 있는 것은 아니지만
+동작하는 환경과의 상호작용을 통해, 그 결과로서 보상(reward)혹은 벌(punishment)을 받기어
+때문에 어떤의미에서 보면 unsupervised learning보다 쉽다고 할 수 있다.
+
+개요
+기계 학습의 목표가 입력들이 주어졌을 경우 그 입력에 대한 결정을 하고(decision making),
+새로운 입력이 들어올 경우 결과를 예측하는(predicting future input) 모델(represenntation)을 만드는
+것이기 때문에 이것을 가능하게 하는 프레임워크를 만들 수 있다.
+
+unsupervised learning 기술
+-clustering(분류)
+-dimensionality reduction (차원 축소)
+
+dimensionality reduction 기술
+-PCA(Principle Component Analysis)
+-ICA(Independent Component Analysis)
+-Non-negative matrix factorization
+-SVD(Singluar Value Decomposition)
+
+초기 신경망 회로(neural network)는 supervised learning을 이용해 인쇄된 문자인식, 필기체 인식 및 음성 인식에서
+탁월한 효과를 보였다.
+최근은 SOM(self-Organizing Map)과 ART(Adaptive Resonance Theory)와 같은 Unsupervised learning을 이용한
+응용 연구가 활발히 진행되고 있다.
