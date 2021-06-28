@@ -1,0 +1,17 @@
+Y=f(X)
+결과 = machine learning X 정보(값)
+여기에서 f란 무엇인가.(회귀 분석인 경우)
+f를 구하기 위해서 입력변수와 출력변수가 필요함.
+p개의 입력변수(X1,X2,....Xp)가 있고 출력변수 Y가 있을 때,
+X=(X1,X2,....Xp)라 하면 입력변수와 출력 변수의 관계를 나타내는 식은 다음과 같음
+
+
+population(모집단)을 알 때
+Y=f(X)
+
+
+population을 모를 때
+population에서 몇개의 데이터를 가져옴.(학습데이터)
+그것으로 추정.
+(hat Y)=(hat f)(X)
+using machine learning(statistics)
