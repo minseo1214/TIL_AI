@@ -1,0 +1,18 @@
+기본지식!
+ 독립변수
+   직접 변경하는 변수-> X
+ 종속변수
+   독립변수에 따라 변화하는 변수 -> Y
+
+Neural Network
+  - 입력, 은닉, 출력층으로 구성된 모형으로서 각 층을 연결하는 노드의 가중치를 업데이트하면서 학습
+  - Overfitting이 심하게 일어나고 학습시간이 매우 오래걸림
+
+Deep Learning
+  - 다층의 layer를 통해 복잡한 데이터의 학습이 가능하도록 함(graphical representation learning)
+  - 알고리즘 및 GPU의 발전이 deep learning의 부흥을 이끔
+  
+  이미지 처리에 사용되는 CNN(Concolutional Neural Network)
+  
+   기존 Machine learning
+   neural network
