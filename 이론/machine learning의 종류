@@ -22,7 +22,7 @@ Neural Network
   - overfitting이 심했음
   
 SVM(support Vector Machine)
-  - class 간의 거리(argin)가 최대가 되도록 decision boundary를 만드는 방법
+  - class 간의 거리(margin)가 최대가 되도록 decision boundary를 만드는 방법
   - 학습 과정 내에서 오차를 허용함.
   - 학습 시간이 오래걸림
   
