@@ -1,0 +1,37 @@
+선형 회귀분석(Linear Regression)
+ - 독립변수와 종속변수가 선형적인 관계가 있다라는 가정하에 분석
+ - 직선을 통해 종속변수를 예측하기 때문에 독립변수의 중요도와 영향력을 파악하기 쉬움
+ y=ax+b
+ 
+ 
+ 의사 결정나무(Decision Tree)
+  - 독립 변수의 조건에 따라 종속변수를 분리(비가 내린다 -> 축구를 하지 않는다)
+  - 이해하기 쉬우나 overfitting(과적합)이 잘 일어남(간단한 곳에만 사용.)
+  - Ensemble Learning의 시초
+  
+KNN(K-Nearest Neighbor)
+  - 새로 들어온 데이터의 주변 k개의 데이터의 class로 분류하는 기법
+  - K는 사람이 지정
+
+머신러닝에는 사람이 지정해 주어야하는 파라미터들이 있는데 이것을 하이퍼 파라미터라고 한다.
+
+
+Neural Network
+  - 입력, 은닉, 출력층으로 구성된 모형으로서 각 층을 연결하는 노드의 가중치를 업데이트하면서 학습.
+  - 어떠한 출력값과 실제값을 비교해서 weigth를 수정해서 정확한 값을 도출하도록 함
+  - overfitting이 심했음
+  
+SVM(support Vector Machine)
+  - class 간의 거리(argin)가 최대가 되도록 decision boundary를 만드는 방법
+  - 학습 과정 내에서 오차를 허용함.
+  - 학습 시간이 오래걸림
+  
+Ensemble Learning
+Ensemble(조합하다)
+  - 여러개의 모델(classifier or base learner)을 결합하여 사용하는 모델
+  
+K-means clustering
+  -Label 없이 데이터 군집으로 k개 생성
+  -k에 따라 성능이 달라짐
+  -고차원으로 갈 수록 성능이 떨어 질 수 
+  
