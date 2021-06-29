@@ -14,5 +14,13 @@ Deep Learning
   
   이미지 처리에 사용되는 CNN(Concolutional Neural Network)
   
-   기존 Machine learning
-   neural network
+기존에 머신러닝으로도 이미지 분류가 가능했지만, 각각의 독립변수가 독립적이지 않다는 문제점이 있었음.
+CNN은 feature을 뽑아내서 다시 하나의 백터로 만들어 딥러닝을 시킨다.
+
+다양한 형태 : CNN,RNN,AutoEncoder
+다양한 분야 : Object detection(분류), Image Resolution(해상도 복원),style transfer,colorzation(색 입히기)
+네트워크 구조의 발전(ResNet,DenseNet)
+네트워크 초기화 기법(Xavier,he initalization 등)
+다양한 activation function(ReLu,ELU,SeLU,Leaky ReLU 등)
+Generalization,overfitting에 관한 문제
+Semi-supervised learning,Unsupervised learning
