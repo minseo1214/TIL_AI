@@ -24,3 +24,14 @@ CNN은 feature을 뽑아내서 다시 하나의 백터로 만들어 딥러닝을
 다양한 activation function(ReLu,ELU,SeLU,Leaky ReLU 등)
 Generalization,overfitting에 관한 문제
 Semi-supervised learning,Unsupervised learning
+
+GAN(Generative Adversarial Network)
+Data를 만들어내는 Generator와 만들어진 data를 평가하는 Discriminator가 서로 대립(Adversarial)적으로 학습해가며
+성능을 점차 개선해 나가자는 개념
+생성하는게 주 목적!
+-Discriminator를 학습시킬 때에서는 D(x)가 1이되고 D(G(z))가 0이되도록 학습시킴.
+(진짜 데이터를 진짜로 판별하고, 가짜데이터를 가짜로 판별 할 수 있도록
+D(x)에서 x는 real data, D(G(z))에서 z는 노이즈 데이터 G(z)->fake
+
+-Generator를 학습시킬 때에서는 D(G(z))가 1이되도록 학습시킴.
+(가짜데이터를 discriminator가 구분못하도록 학습,discriminator를 헷갈리게 하도록)
