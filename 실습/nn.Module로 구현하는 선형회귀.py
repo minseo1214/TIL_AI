@@ -46,3 +46,9 @@ for epoch in range(nb_epochs+1):
       print('Epoch {:4d}/{} Cost: {:.6f}'.format(
           epoch, nb_epochs, cost.item()
       ))
+##학습완료. Cost값이 매우 작다. W와 b값도 최적화가 되었는지 확인해보자.
+new_var=torch.FloatTensor([[4.0]])
+pred_y=model(new_var)#forward
+# y = 2x 이므로 입력이 4라면 y가 8에 가까운 값이 나와야 제대로 학습이 된 것
+print("훈련 후 입력이 4일 때의 예측값 :", pred_y) 
+print(list(model.parameters()))
