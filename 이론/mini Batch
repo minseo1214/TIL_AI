@@ -4,7 +4,6 @@ x_train = torch.FloatTensor([[73, 80, 75],
 메모리의 한계로 계산이 불가능 한 경우도 있다.
 때문에 전체 데이터를 더 작은 단위로 나누어서 해단 단위로 학습하는 개념이 나오게 되었다.
 이때 이 단위를 미니배치(Mini Batch)라고 한다.
-![image](https://user-images.githubusercontent.com/68543486/133531348-84ba3448-91c7-4fbe-a8da-7a205aa103ae.png)
 
 이 그림처럼 나누어 미니배치를 학습하게되면 미니배치에 대한 비용(cost)를 계산하고 경사하강법을 수행합니다.
 
@@ -20,7 +19,7 @@ minibatch의 크기를 batchsize라고합니다.
 
 
 이터레이션(Iteration)
-![image](https://user-images.githubusercontent.com/68543486/133530186-d5f05821-12f1-4edc-b6cd-929680b0e099.png)
+
 Iteration은 한번의 epoch내에서 이루어지는 매개변수인 가중치W와 b의 업데이트 횟수입니다
 전체 데이터가 2,000일 때 배치 크기를 200으로 한다면 이터레이션의 수는 총 10개 입니다.
 이는 한번에 epoch당 매개변수 업데이트가 10번 이루어짐을 의미합니다.
