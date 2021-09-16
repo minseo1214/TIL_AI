@@ -1,5 +1,5 @@
 <h2>시그모이드 함수</h2><br>
 S자 모양을 갖는 함수<br>
 중심충 0을 중심으로 과측은 0으로 수렴 우측은 1로 수렴<br>
-<img width="87" alt="image" src="https://mlnotebook.github.io/img/transferFunctions/sigmoid.png"><br>
+<img width="87" alt="image" src="https://icim.nims.re.kr/file/1d96aff862744eef892c8c8027159935.jpg"><br>
 시그모이드 함수는 출력값을 0~1사이로 제한, 확률값으로 해석, 모든 지점에서 미분이 가능해 출력변환함수로 유용<br>
