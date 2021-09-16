@@ -6,7 +6,7 @@ x_train = torch.FloatTensor([[73, 80, 75],
 이때 이 단위를 미니배치(Mini Batch)라고 한다.
 
 이 그림처럼 나누어 미니배치를 학습하게되면 미니배치에 대한 비용(cost)를 계산하고 경사하강법을 수행합니다.
-<img alt="image" src="D:\미나배치.JPG"><br>
+<img alt="image" src="https://wikidocs.net/images/page/55580/%EB%AF%B8%EB%8B%88%EB%B0%B0%EC%B9%98.PNG"><br>
 그리고 마지막 배치까지 이를 반복하는데 이렇게 전체 데이터에 대한 학습이 1회 끝나면 1에포크(Epoch)라고 합니다.
 따라서 미니배치의 갯수에 따라 1epoch는 달라집니다.
 minibatch의 크기를 batchsize라고합니다.
